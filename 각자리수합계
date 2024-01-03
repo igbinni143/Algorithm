@@ -1,0 +1,32 @@
+fnum = int (345)
+f2num = int(387)
+totfn = int(fnum + f2num)
+
+"""fnum=int(input('첫번째 3자리 숫자를 입력하세요'))
+f2num=int(input('두번째 3자리 숫자를 입력하세요'))
+"""
+
+def getdigits(object):
+    d1=0
+    d2=0
+    d3=0
+        
+    objectlist = []
+    d1 += object//100
+    d2 += object%100//10
+    d3 += object%10
+    objectlist += [d1,d2,d3]
+    
+    if object == totfn:
+        rev_objectlist = []
+        rev_objectlist += [d3,d2,d1]
+        print ("거꾸로의 값은")
+        return rev_objectlist
+        
+    else:
+        print (object,"의 각 자릿수는 ")
+        return objectlist
+        
+print(getdigits(fnum))
+print(getdigits(f2num))    
+print(getdigits(totfn))
