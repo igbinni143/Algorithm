@@ -11,4 +11,3 @@ class Solution(object):
                     output.append(i)
                     output.append(j)
                     return output
-        
