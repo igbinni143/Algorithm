@@ -5,4 +5,5 @@ arr = input.split(" ")
 a = Number(arr[0]);
 b = Number(arr[1]);
 
+
 console.log(b,a);
