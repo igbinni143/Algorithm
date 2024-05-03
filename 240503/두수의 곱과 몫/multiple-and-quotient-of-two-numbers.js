@@ -5,4 +5,4 @@ a = Number(inputt[0]);
 b = Number(inputt[1]);
 
 console.log(`${a} * ${b} = ${a*b}`);
-console.log(`${a} / ${b} = ${a/b}`);
+console.log(`${a} / ${b} = ${parseInt(a/b)}`);
