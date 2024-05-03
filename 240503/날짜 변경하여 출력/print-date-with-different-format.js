@@ -1,6 +1,6 @@
 const fs = require("fs");
-let input = fs.readDataSync(0).toString();
-date = input.split(".")
+let input = fs.readFileSync(0).toString();
+data = input.split(".");
 year=data[0];
 month=data[1];
 date=data[2];
