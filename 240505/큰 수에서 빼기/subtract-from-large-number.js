@@ -9,10 +9,6 @@ b=arr[1];
 if (a<b) {
     console.log(b-a);
 }
-if (a>b) {
-    console.log(a-b);
-}
-
-if (a=b){
+if (a>=b) {
     console.log(a-b);
 }
