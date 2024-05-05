@@ -5,10 +5,11 @@ let arr = input.split(" ");
 a=arr[0];
 b=arr[1];
 
-
-if (a<b) {
-    console.log(b-a);
-}
-if (a>=b) {
-    console.log(a-b);
+if (1<=a,b<=100){
+    if (a<b) {
+        console.log(b-a);
+    }
+    if (a>=b) {
+        console.log(a-b);
+    }
 }
