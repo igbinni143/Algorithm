@@ -2,8 +2,8 @@ const fs = require("fs");
 let input = fs.readFileSync(0).toString().trim();
 
 let arr = input.split(" ");
-a=arr[0];
-b=arr[1];
+a=Number(arr[0]);
+b=Number(arr[1]);
 
 if (a>=b) {
     console.log(a-b);
