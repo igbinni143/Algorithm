@@ -1,6 +1,6 @@
 const fs = require("fs")
-let input = Number(fs.readFileSync(0).toString());
+let input = fs.readFileSync(0).toString();
 
+a=Number(input)
 
-
-let b = input = 100 ? console.log("pass"):console.log("failure");
+let b = a = 100 ? console.log("pass"):console.log("failure");
