@@ -8,5 +8,5 @@ if (a>=80) {
 }
 else {
   b = 80-a
-  console.log("${b} more score")
+  console.log(`${b} more score`)
 }
