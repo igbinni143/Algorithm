@@ -1,4 +1,4 @@
 const fs = require ("fs")
-let input = Number(fs.readFileSync(0).toString());
-
-if b= input==1? console.log("t") : console.log("f");
+let input = fs.readFileSync(0).toString();
+a = Number(input)
+if b = a==1? console.log("t") : console.log("f");
