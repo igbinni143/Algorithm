@@ -1,7 +1,8 @@
 const fs = require("fs");
 let input = Number(fs.readFileSync(0).toString().trim());
 
-let a = Number(0)
+let a = Number(input)
+
 if (input %2 ==1) {
     a = input +3
 }
