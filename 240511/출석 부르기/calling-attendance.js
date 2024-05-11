@@ -13,5 +13,5 @@ else if (input == 3) {
     console.log("Paul")
 }
 else {
-    console.log("vacancy")
+    console.log("Vacancy")
 }
