@@ -11,8 +11,7 @@ else if (input == 'B') {
     console.log("Good")
 }
 else if (input == 'C') {
-    console.log("Effort")
-
+    console.log("Usually")
 }
 else if (input == 'D') {
     console.log("Effort")
