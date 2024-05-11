@@ -6,6 +6,7 @@ if (input %2 ==1) {
 }
 
 if (a%3==0) {
-    a=a/3
+    a = a/3
 }
+
 console.log(a)
