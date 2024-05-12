@@ -5,23 +5,17 @@ a = Number(inputs[0]);
 b = Number(inputs[1]);
 
 if (a<b) {
-    console.log(1);
-    if (a==b) {
-     console.log(1);
-    }
-
-    else {
-        console.log(0);
-    }
+    process.stdout.write(1);
 }
 
 else {
-    console.log(2);
-    if (a==b) {
-        console.log(1);
-    }
+    process.stdout.write(2);
+}
 
-    else {
-     console.log(0);
-    }
+if (a==b) {
+    process.stdout.write(1);
+}
+
+else {
+    process.stdout.write(0);
 }
