@@ -5,11 +5,11 @@ a = Number(inputs[0]);
 b = Number(inputs[1]);
 
 if (a<b) {
-    process.stdout.write('1');
+    process.stdout.write('1 ');
 }
 
 else {
-    process.stdout.write('2');
+    process.stdout.write('2 ');
 }
 
 if (a==b) {
