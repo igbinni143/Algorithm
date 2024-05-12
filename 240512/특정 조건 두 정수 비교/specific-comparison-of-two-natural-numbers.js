@@ -12,10 +12,10 @@ else {
     console.log(2);
 }
 
-if (a=b) {
-    console.log(1);
+if (a==b) {
+    console.log(1,end=` `);
 }
 
 else {
-    console.log(0);
+    console.log(0,end=` `);
 }
