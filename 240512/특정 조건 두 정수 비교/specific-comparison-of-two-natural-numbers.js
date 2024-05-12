@@ -9,7 +9,7 @@ if (a<b) {
 }
 
 else {
-    process.stdout.write('2 ');
+    process.stdout.write('0 ');
 }
 
 if (a==b) {
