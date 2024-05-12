@@ -12,7 +12,7 @@ else {
     console.log(2);
 }
 
-if (a=b) {
+if (a==b) {
     console.log(1);
 }
 
