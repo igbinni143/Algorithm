@@ -6,6 +6,7 @@ let a = Number(input1);
 let b = Number(input[0]);
 let c = Number(input[1]);
 let d = Number(input[2]);
+let e = Number(input[3]);
 
 
 console.log (a > b ? 1 : 0);
