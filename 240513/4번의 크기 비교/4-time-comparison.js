@@ -1,5 +1,5 @@
 let fs = require("fs");
-let input1 = fs.readFileSync(0).toString.trim();
+let input1 = fs.readFileSync(0).toString();
 let input = fs.readFileSync(0).toString().trim().split(" "); 
 
 let a = Number(input1);
