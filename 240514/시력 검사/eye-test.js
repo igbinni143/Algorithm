@@ -1,5 +1,5 @@
 const fs = require("fs");
-let input = fs.readFileSync(0).toString().split(" ");
+let input = fs.readFileSync(0).toString().split("\n");
 
 reye = Number(input[0]);
 leye = Number(input[1]);
