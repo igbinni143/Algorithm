@@ -5,16 +5,16 @@ a = Number(input[0]);
 b = Number(input[1]);
 c = Number(input[2]);
 
-let fr ,sr;
+let fr, sr;
 
-if (a <= b && a<=c) {
+if (a <= b && a <= c) {
     fr = 1;
 }
-else{
+else {
     fr = 0;
 }
 
-if (a=b && a==c) {
+if (a==b && a==c) {
     sr = 1;
 }
 else {
