@@ -5,7 +5,6 @@ a = Number(input[0]);
 b = Number(input[1]);
 c = Number(input[2]);
 
-let fr, sr;
 
 if (a <= b && a <= c) {
     console.log(a);
