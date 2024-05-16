@@ -1,5 +1,5 @@
 const fs = require("fs");
-let input = fs.readFileSync(0).toString();
+let input = fs.readFileSync(0).toString().trim();
 
 m = Number(input);
 
@@ -12,6 +12,6 @@ else if (m >=6 && m<=8) {
 else if (m >= 9 && m<= 11) {
     console.log("Fall");
 }
-else if (m===12 && m <=2 ) {
+else if (m==12 && m <=2 ) {
     console.log("Winter");
 }
