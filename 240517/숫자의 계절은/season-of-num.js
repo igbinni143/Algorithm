@@ -12,6 +12,6 @@ else if (m <= 5) {
 else if (m <= 8) {
     console.log("Summer");
 }
-else if (m=<11) {
+else {
     console.log("Fall");
 }
