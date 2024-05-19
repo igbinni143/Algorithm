@@ -17,7 +17,7 @@ else if (c >a && c>b) {
     console.log(c)
 }
 else if (a==b) {
-    if (a > b) {
+    if (a > c) {
         console.log(a)
     }
     else {
