@@ -10,7 +10,7 @@ let result = "";
 if (a%2 ==1){
     for (i=a; i<= b; i+=2) {
         result += i + " ";
-        console.log(result);
+       // console.log(result);
     }
 }
 
