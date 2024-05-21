@@ -8,12 +8,13 @@ let result = "";
 
 
 if (a%2 ==1){
-    for (i= a; i<=b, i+=2;) {
+    for (i=a; i<=b, i+=2;) {
         result += i + " ";
+        console.log(result);
     }
 }
 
-else {
+else if (a%2 ==0 ){
     for (i= a+1; i <= b, i+=2;) {
         result += i + " ";
 }
