@@ -6,15 +6,15 @@ a = Number(input[0]);
 b = Number(input[1]);
 
 c = (a/b);
-c2 = c.toString();
+c2 = c.toString().trim();
 c3 = c2.split(".");
 
 clength = c2.length;
 wlength = 21-clength;
 
 for (let i = 0; i<=wlength; i++ ) {
-    www+="0"
-    c2 += www
+    c2 += "0"
 }
 
-console.log(cw);
+
+console.log(c2);
