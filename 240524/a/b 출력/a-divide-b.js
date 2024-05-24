@@ -1,17 +1,15 @@
 const fs = require("fs");
 let input = fs.readFileSync(0).toString().split(" ");
 let www = ""
+const c = a/b; 
+let c2 = c.toString().trim();
+let c3 = c2.split(".");
+let c4 = c3[1];
+let clength = c4.length;
+let wlength = 21 - clength;
 
 a = Number(input[0]);
 b = Number(input[1]);
-
-c = (a/b);
-c2 = c.toString().trim();
-c3 = c2.split(".");
-c4 = c3[2]
-
-clength = c4.length;
-wlength = 21-clength;
 
 if (clength <21) {
     for (let i = 0; i<=wlength; i++ ) {
@@ -23,7 +21,6 @@ else if (clenth >=21){
        c2 += c4[i]
        c2 = c2.trim()
     }
-
 }
 
 console.log(c2);
