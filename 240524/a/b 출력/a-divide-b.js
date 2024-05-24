@@ -1,7 +1,7 @@
 const fs = require("fs");
 let input = fs.readFileSync(0).toString().split(" ");
-let www = ""
-const c = a/b; 
+
+let c = a/b; 
 let c2 = c.toString().trim();
 let c3 = c2.split(".");
 let c4 = c3[1];
