@@ -5,6 +5,7 @@ let i = n
 
 while (i>=1) {
     result += i + " "
+    i--
 }
 
 console.log(result);
