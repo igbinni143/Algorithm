@@ -19,7 +19,7 @@ if (clength <21) {
     }
 }   
 else if (clenth >=21){
-    for (let i = 0; , i<=21; i++) {
+    for (let i = 0; i<=21; i++) {
        c2 += c4[i]
        c2 = c2.trim()
     }
