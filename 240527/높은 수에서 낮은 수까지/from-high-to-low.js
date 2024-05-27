@@ -15,7 +15,7 @@ else if (a < b){
     }
 }
 else { 
-    result = ""
+    result = a
 }
 
 console.log(result);
