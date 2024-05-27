@@ -12,7 +12,7 @@ if (c=='A') {
 }
 else if (C=='D') {
     for (let i = n; i>0; i--){
-        result += i + " "
+        result += i + " ";
     }
 }
 
