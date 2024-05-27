@@ -10,10 +10,10 @@ if (c=='A') {
         result += i + " ";
     }
 }
-else if (C=='D') {
+else if (c=='D') {
     for (let i = n; i>0; i--){
         result += i + " ";
     }
-};
+}
 
 console.log(result);
