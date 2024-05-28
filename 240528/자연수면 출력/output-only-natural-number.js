@@ -7,8 +7,10 @@ let b = Number(input[1]);
 let result = "";
 
 if (a > 0) {
-    result = a.toString().repeat(b);
-} else {
+    for (let i = 0; i < b; i++) {
+        result += a;
+} 
+else {
     result = "0";
 }
 
