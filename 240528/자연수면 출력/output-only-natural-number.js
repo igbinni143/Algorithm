@@ -14,5 +14,4 @@ if (!isNaN(a)) {
 } else if (a <= 0) {
     console.log(0);
 } else {
-    pass;
 }
