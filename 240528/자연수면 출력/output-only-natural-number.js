@@ -11,9 +11,8 @@ if (!isNaN(Number(a))) {
         result+=a;
     }
 } else if (Number(a) <= 0) {
-    result = [0];
-} else {
     result = 0;
+} else {
 }
 
 console.log(result);
