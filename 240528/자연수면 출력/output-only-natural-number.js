@@ -10,9 +10,9 @@ if (!isNaN(a)) {
     for (let i = 1; i <= b; i++) {
         result+=a;
     }
+    console.log(result);
 } else if (a <= 0) {
-    result = 0;
+    console.log(0);
 } else {
+    pass;
 }
-
-console.log(result);
