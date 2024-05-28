@@ -1,17 +1,19 @@
-const fs = require ("fs");
+const fs = require("fs");
 
 let input = fs.readFileSync(0).toString().split(" ");
 
-a = input[0];
-b = Number(input[1]);
-let result = []
+let a = input[0];
+let b = Number(input[1]);
+let result = [];
 
-if (typeof a === Number) {
-    for (let i = 1; i<=b; i++){
-    result += a;
-}
-else if (a<=0) {
-    result=0;
+if (!isNaN(Number(a))) {
+    for (let i = 1; i <= b; i++) {
+        result+=a;
+    }
+} else if (Number(a) <= 0) {
+    result = [0];
+} else {
+    result = 0;
 }
 
 console.log(result);
