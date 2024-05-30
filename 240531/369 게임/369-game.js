@@ -1,14 +1,18 @@
 const fs = require("fs");
-let n = fs.readFileSync(0).toString().trim();
-nn = Number(n)
+let n = Number(fs.readFileSync(0).toString().trim());
+let li =[];
+for (let i= 1; i<=n; i++) {
+    if (i%3===0){
+        // console.log (0);
+        li += "0 ";
+    }
+    else if (i.toString().includes('3') || i.toString().includes('6') || i.toString().includes('9')) {
+        li += "0 ";
+    }   
+    else {
+        // console.log (0);
+        li += i+" ";
+    }
+}
 
-if (nn%3 ==0 | n =3){
-    console.log ("0");
-}
-else if ( n=6| n=9) {
-    console.log("0");
-}
-
-else {
-    console.log(n);
-}
+console.log(li)
