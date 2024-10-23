@@ -7,7 +7,7 @@ if way =="A" :
         i+=1
 elif way == "D":
     i = num
-    for i in range(1,num+1):
+    for i in range(num+1):
         print(i,end=" ")
         i-=1
         if i==0:
