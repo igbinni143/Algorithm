@@ -13,4 +13,4 @@ elif a>b:
         print(i, end=" ");
 
 else:
-    print("끝")
+    print(a)
