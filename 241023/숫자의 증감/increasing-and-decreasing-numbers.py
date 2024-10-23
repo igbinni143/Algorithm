@@ -6,8 +6,8 @@ if way =="A" :
         print(i,end=" ")
         i+=1
 elif way == "D":
-    i == num
-    for i in range(num+1):
+    i = num
+    for i in range(num+1,0):
         print(i,end=" ")
         i-=1
         if i==0:
