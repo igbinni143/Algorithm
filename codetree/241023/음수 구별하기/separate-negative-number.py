@@ -1,6 +1,0 @@
-a = int(input())
-if a < 0 :
-    print(a)
-    print("minus")
-else:
-    print(a)
