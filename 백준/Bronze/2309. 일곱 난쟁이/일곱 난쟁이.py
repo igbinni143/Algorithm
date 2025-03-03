@@ -1,29 +1,26 @@
-total_hlist = []
+heightlist=[]
 total = 0
-import sys
+for i in range (9):
+  height=int(input())
+  heightlist.append(height)
+  total+= height
 
-for _ in range(9):
-  indiv_height = int(input())
-  total_hlist.append(indiv_height)
-  total+=indiv_height
+heightlist.sort()
+more = total - 100
 
-over = (total-100)
+found = False 
 
-i=0
-over_height=[]
-found=False
-for i in range (len(total_hlist)):
-  for j in range(i+1,len(total_hlist)):
-    if total_hlist[i] + total_hlist[j] == over:
-      h1, h2 = total_hlist[i] , total_hlist[j] 
-      total_hlist.remove(h1)
-      total_hlist.remove(h2)
-      found=True
-      break;
-  if found==True:
-    break
+while found is False:
+  for i in range (len(heightlist)):
+    for j in range (1, len(heightlist)):
+      if heightlist[i] + heightlist[j] == more:
+        strange1,strange2 = heightlist[i] , heightlist[j]
+        heightlist.remove(strange1)
+        heightlist.remove(strange2)
+        found = True
+        break
+    if found==True:
+      break
 
-total_hlist.sort()
-
-for i in range (len(total_hlist)):
-  print(total_hlist[i])
+for i in range (len(heightlist)):
+  print(heightlist[i])
