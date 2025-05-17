@@ -5,10 +5,4 @@ let b = Number(num[1]);
 
 const ans = arr.filter((v) => b > v);
 
-//console.log(ans);
-
-let arr2 = "";
-for (let i = 0; i < ans.length; i++) {
-	arr2 += ans[i] + " ";
-}
-console.log(arr2);
+console.log(ans.join(" "));
