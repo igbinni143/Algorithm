@@ -7,9 +7,6 @@ let b = Number(fs[2]);
 
 //console.log(typeof a);
 
-for (let i = 0; i < arr.length; i++) {
-	if (arr[i] == b) {
-		cnt += 1;
-	}
-}
-console.log(cnt);
+const ans = arr.filter((v) => v == b).length;
+
+console.log(ans);
