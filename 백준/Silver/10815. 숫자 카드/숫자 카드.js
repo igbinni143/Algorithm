@@ -2,15 +2,16 @@ const input = require("fs").readFileSync("/dev/stdin").toString().trim().split("
 const a1 = input[1].split(" ").map((v) => +v);
 const a2 = input[3].split(" ").map((v) => +v);
 
-const dic = {};
+const set = new Set();
 for (let i = 0; i < a1.length; ++i) {
-	dic[a1[i]] = 1;
+	set.add(a1[i]);
 }
 let ans = "";
 for (let i = 0; i < a2.length; ++i) {
-	if (dic[a2[i]] === undefined) {
-		dic[a2[i]] = 0;
+	if (set.has(a2[i])) {
+		ans += "1 ";
+	} else {
+		ans += "0 ";
 	}
-	ans += dic[a2[i]] + " ";
 }
 console.log(ans);
